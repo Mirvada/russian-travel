@@ -5,6 +5,13 @@
   font-style: normal;
   font-weight: 400;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 1.2;
   text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+  .lead__subtitle {
+  font-size: calc((100vw - 320px)/(767 - 320) * (30 - 16) + 16px);
+  line-height: calc((100vw - 320px)/(767 - 320) * (1.25 - 1.2) + 1.2);
+  }
 }

@@ -3,16 +3,8 @@
   padding: 0;
   max-width: 1184px;
   height: 740px;
-  background-image: url(../../../images/cover-background.jpg);
+  background-image: url(../../images/cover-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
-
-/* @media screen and (max-width: 1024px) {
-  .cover {
-    padding: 92px 0 0 0;
-    max-width: 1024px;
-  }
-} */
-
