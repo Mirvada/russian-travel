@@ -1,0 +1,5 @@
+.header__lang-zone {
+  display: flex;
+  align-items: end;
+  gap: 18px;
+}
