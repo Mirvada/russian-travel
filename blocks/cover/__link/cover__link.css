@@ -1,6 +1,6 @@
 .cover__link {
   text-decoration: none;
-  color: #ffffff;
+  color: #fff;
   min-height: 740px;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@
   background-color: #2A2C2F;
   background-size: cover;
   opacity: 0.3;
-  transition: 0.2s ease;
+  transition: opacity 0.2s ease;
 }
 
 .cover__link:hover::before {
